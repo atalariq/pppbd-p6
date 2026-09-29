@@ -7,21 +7,21 @@
     <string name="tab_quiz_text">Quiz</string>
 
     <!-- Home -->
-    <string name="home_title">Mobile Application Development Practicum</string>
-    <string name="home_description">This practicum introduces the fundamentals of Android application development with Kotlin and XML layouts. Each meeting adds one topic, from the first Hello, World! app to tab layouts, menus, and custom styles. The course is part of the Software Engineering Technology program, Vocational School, Universitas Gadjah Mada.</string>
-    <string name="home_lecturer">Lecturer: TODO</string>
-    <string name="home_class">Class: TODO</string>
-    <string name="home_schedule">Schedule: TODO</string>
+    <string name="home_title">Mobile Application Development</string>
+    <string name="home_description">This practicum introduces the fundamentals of Android application development using Android Studio. Each meeting adds one topic, from the first Hello, World! app to tab layouts, menus, and custom styles. The course is part of the Software Engineering Technology program, Vocational School, Universitas Gadjah Mada.</string>
+    <string name="home_lecturer">Lecturer: Sigit Hanafi, S. Kom.</string>
+    <string name="home_class">Class: B2</string>
+    <string name="home_schedule">Schedule: Wednesday, 07:15–10.55</string>
     <string name="home_image_description">School icon</string>
 
     <!-- Material -->
     <string-array name="material_list">
-        <item>P1 - Introduction (Hello, World!)</item>
-        <item>P2 - Basic UI Components (CountApp)</item>
+        <item>P1 - Hello, World!</item>
+        <item>P2 - Basic UI Components</item>
         <item>P3 - RelativeLayout and ConstraintLayout</item>
         <item>P4 - Activity and Intent</item>
         <item>P5 - Spinner, Date Picker, Time Picker, and Dialog</item>
-        <item>P6 - Tab Layout, Options Menu, and Styles</item>
+        <item>P6 - Tab Layout, Menu Options, Fragments, and Styles</item>
     </string-array>
 
     <!-- Quiz -->
