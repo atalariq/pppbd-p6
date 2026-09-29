@@ -4,16 +4,13 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
 
-class SectionsPagerAdapter(activity: AppCompatActivity):
-FragmentStateAdapter(activity) {
+class SectionsPagerAdapter(activity: AppCompatActivity) : FragmentStateAdapter(activity) {
     override fun createFragment(position: Int): Fragment {
-        var fragment: Fragment? = null
-        when (position) {
-            0 -> fragment = HomeFragment()
-            1 -> fragment = MaterialFragment()
-            2 -> fragment = QuizFragment()
+        return when (position) {
+            0 -> HomeFragment()
+            1 -> MaterialFragment()
+            else -> QuizFragment()
         }
-        return fragment as Fragment
     }
 
     override fun getItemCount(): Int {
